@@ -4,7 +4,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="14"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+    <application android:label="@string/app_name" android:icon="@drawable/muted">
         <activity android:name="MuteAllActivity"
                   android:label="@string/app_name">
             <intent-filter>
@@ -13,7 +13,7 @@
             </intent-filter>
         </activity>
         <receiver
-            android:icon="@drawable/icon"
+            android:icon="@drawable/ic_launcher"
             android:label="MuteAll"
             android:name="MuteAllProvider">
             <intent-filter>
@@ -21,7 +21,7 @@
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/widget_info"/>
+                android:resource="@xml/app_widget_provider_info"/>
         </receiver>
     </application>
 </manifest>

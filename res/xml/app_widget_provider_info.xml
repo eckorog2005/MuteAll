@@ -4,6 +4,5 @@
                     android:updatePeriodMillis="86400000"
                     android:previewImage="@drawable/muted"
                     android:initialLayout="@layout/muteall_appwidget"
-                    android:configure="com.rlamb1id.MuteAll.AppWidgetConfigure"
                     android:resizeMode="horizontal|vertical">
 </appwidget-provider>
